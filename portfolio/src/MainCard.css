@@ -1,3 +1,7 @@
 .LinkIcon {
     margin: 1px;
 }
+
+a:visited {
+    color: black;
+}
