@@ -1,0 +1,9 @@
+.FirstSection {
+    background-color: orange;
+    height: 100vh;
+}
+
+.Avatar:hover {
+    opacity: 0.4;
+    transition: 1s;
+}
