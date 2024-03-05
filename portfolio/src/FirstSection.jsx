@@ -8,13 +8,13 @@ import LogoLine from "./LogoLine"
 export default function FirstSection(){
     return (
         <Grid container spacing={1}>
-           <Grid item md={3} xs={12} className="FirstSection">
+           <Grid item md={4} xs={12} className="FirstSection">
                 <img src="./IMG_7303.jpg" alt="Profile Pic" className="Avatar" />
            </Grid>
-           <Grid item lg={8} md={9}>
+           <Grid item lg={7} md={8}>
                 <MainCard/>
            </Grid>
-           <Grid item xl={1} md={12} sx={{mt: 10}}>
+           <Grid item lg={1} md={12} sx={{mt: 10}}>
                 <LogoLine/>
            </Grid>
         </Grid>
