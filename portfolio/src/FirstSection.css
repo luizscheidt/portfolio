@@ -29,3 +29,15 @@
         opacity: 0.5;
     }
 }
+
+@media (max-width: 1200px) {
+    .HorizontalLogos {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .VerticalLogos {
+        display: none;
+    }
+}
