@@ -6,7 +6,6 @@ import MainCard from "./MainCard"
 import LogoLine from "./LogoLine"
 
 export default function FirstSection(){
-    let width = window.innerWidth;
 
     return (
         <Grid container spacing={1}>

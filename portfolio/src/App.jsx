@@ -1,6 +1,7 @@
 import FirstSection from "./FirstSection"
 import Navbar from "./Navbar"
 import { createTheme, ThemeProvider } from '@mui/material';
+import Projects from "./Projects";
 
 const theme = createTheme({
   typography: {
@@ -16,6 +17,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Navbar/>
       <FirstSection/>
+      <Projects/>
       </ThemeProvider>
     </>
   )
