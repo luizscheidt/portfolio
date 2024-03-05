@@ -10,11 +10,11 @@ export default function FirstSection(){
 
     return (
         <Grid container spacing={1}>
-           <Grid item md={4} xs={12} className="FirstSection">
+           <Grid item md={4} xs={12} className="FirstThird">
                 <img src="./IMG_7303.jpg" alt="Profile Pic" className="Avatar" />
            </Grid>
            <Grid item lg={7} md={8}>
-                <MainCard/>
+                <MainCard />
                 <Grid className="VerticalLogos">
                     <LogoLine/>
                 </Grid>

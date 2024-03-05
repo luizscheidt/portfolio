@@ -1,11 +1,6 @@
-.FirstSection {
+.FirstThird {
     background-color: #219ebc;
     height: 100vh;
-}
-
-.Avatar:hover {
-    opacity: 0.4;
-    transition: 1s;
 }
 
 .Avatar {
@@ -21,7 +16,18 @@
     .Avatar {
         width: 50%;
         height: auto;
+        margin: 0px;
+        padding: 0px;
     }
+    .FirstThird {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 50%;
+
+    }
+
 }
 
 @media (max-width:1086px) {
