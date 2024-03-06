@@ -27,7 +27,9 @@ export default function BeakemCard() {
           Code
         </Button>
        </a>
-        <Button size="small">Learn More</Button>
+        <Button size="small" onClick={() => alert('The Beakem application has not been deployed yet, you can still run the code copying it on gitHub.')}>
+          Open Site
+          </Button>
       </CardActions>
     </Card>
   );

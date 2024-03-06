@@ -27,7 +27,10 @@ export default function YelpCampCard() {
           Code
         </Button>
        </a>
-        <Button size="small">Learn More</Button>
+
+      <a href="https://yelp-camp-zy97.onrender.com/">
+        <Button size="small">Open site</Button>
+      </a>
       </CardActions>
     </Card>
   );
