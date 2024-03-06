@@ -1,5 +1,7 @@
 import { useRef } from "react"
 
+import "./App.css"
+
 import FirstSection from "./FirstSection"
 import Navbar from "./Navbar"
 import Projects from "./Projects";
@@ -26,11 +28,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Navbar/>
       <FirstSection handleClick={handleClick}/>
-      <div ref={ref}>
-            <Typography variant="h2" component="h2" >
-                Projects
-            </Typography>
-        </div>
+      <div ref={ref}></div>
       <Projects/>
       </ThemeProvider>
     </>
