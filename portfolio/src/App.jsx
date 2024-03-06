@@ -1,7 +1,11 @@
+import { useRef } from "react"
+
 import FirstSection from "./FirstSection"
 import Navbar from "./Navbar"
-import { createTheme, ThemeProvider } from '@mui/material';
 import Projects from "./Projects";
+
+import { createTheme, ThemeProvider, Typography } from '@mui/material';
+
 
 const theme = createTheme({
   typography: {
@@ -11,12 +15,22 @@ const theme = createTheme({
   },});
 
 function App() {
+  const ref = useRef(null)
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: "smooth" })
+  }
+
 
   return (
     <>
     <ThemeProvider theme={theme}>
       <Navbar/>
-      <FirstSection/>
+      <FirstSection handleClick={handleClick}/>
+      <div ref={ref}>
+            <Typography variant="h2" component="h2" >
+                Projects
+            </Typography>
+        </div>
       <Projects/>
       </ThemeProvider>
     </>
