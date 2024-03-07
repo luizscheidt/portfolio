@@ -18,7 +18,7 @@ export default function BeakemCard() {
           Beakem
         </Typography>
         <Typography variant="body2" color="text.secondary">
-            The plataform where you can register your favorite albums and artists and git them a rating.
+            Web application in which you are able to register your favorite albums and artists and give them a rating, grouping and ordering them the way you prefer.
         </Typography>
       </CardContent>
       <CardActions>

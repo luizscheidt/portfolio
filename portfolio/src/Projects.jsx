@@ -18,8 +18,8 @@ import YelpCampCard from "./YelpCampCard";
                         Projects
                     </Typography>
                     <Stack direction="row" spacing={2} sx={{pt: 5}}>
-                        <BeakemCard />
                         <YelpCampCard />
+                        <BeakemCard />
                     </Stack>
                 </Stack>
 

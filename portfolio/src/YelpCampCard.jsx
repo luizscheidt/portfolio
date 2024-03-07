@@ -11,14 +11,14 @@ export default function YelpCampCard() {
       <CardMedia
         sx={{ height: 140 }}
         image="../images/YelpCampThumb.png"
-        title="green iguana"
+        title="Yelp Camp"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Yelp Camp
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Full-stack web application that allows users to view, create, and review campgrounds. It includes user authentication, campground creation, and comment functionality. 
+          Full-stack web application that allows users to view, create, and review campgrounds. It includes user authentication, campground creation, and comment functionality. 
         </Typography>
       </CardContent>
       <CardActions>
